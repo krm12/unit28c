@@ -1,0 +1,67 @@
+#wrapper {
+  width:70%;
+  margin:auto;
+  background: hsla(0,0%,100%,0,94);
+}
+
+p {
+font-family: 'Rubik', sans-serif;
+}
+
+h1 {
+font-family: 'Rubik', sans-serif;
+}
+
+header {
+text-align: center;
+font-size: 30px;
+}
+
+
+body {
+  background-color: lightblue;
+}
+
+.grid-container {
+  display: grid;
+  grid-template-columns: auto auto auto;
+  background-color: white;
+  padding: 16px;
+}
+
+.clearfix {
+  overflow: auto;
+}
+
+.bg {
+background-color: white;
+}
+
+.p {
+color: white;
+}
+
+nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+}
+
+nav ul li {
+  float: left;		
+}
+
+nav li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+
+nav li a:hover {
+  background-color: #111;
+}
